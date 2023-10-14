@@ -34,3 +34,7 @@ jobs:
 
       - name: Test App Code
         run: python ./main_test.py
+
+      - name: List installed packages
+        run: pip freeze
+      
